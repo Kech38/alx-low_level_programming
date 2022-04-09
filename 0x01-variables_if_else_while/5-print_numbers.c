@@ -5,7 +5,7 @@
 * Desription: Print numbers 0 to 9 on one line
 * Return: 0
 */
-int main(viod)
+int main(void)
 {
 char i;
 
