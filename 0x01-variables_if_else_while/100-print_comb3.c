@@ -13,11 +13,11 @@ for (c = 48; c < 58; c++)
 {
 for (d = 48; d < 58; d++)
 {
-if (d > c)
+if (c != d && c < d)
 {
 putchar(c);
 putchar(d);
-if (c != 56 || d != 56)
+if (c == 56 && d == 57)
 {
 putchar(',');
 putchar(' ');
