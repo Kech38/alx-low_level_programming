@@ -2,15 +2,16 @@
 /**
 * main -entry point
 * Description: prints all possible different combination of two digits
+* Return: Always 0
 */
 
 int main(void)
 {
 int c, d;
 
-for(c = 48; c < 58; c++)
+for (c = 48; c < 58; c++)
 {
-for(d = 48; d < 58; d++)
+for (d = 48; d < 58; d++)
 {
 if (d > c)
 {
