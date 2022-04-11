@@ -20,8 +20,7 @@ if (d != e && d < e)
 putchar(c);
 putchar(d);
 putchar(e);
-if (c != 55 || d != 56)
-if (d != 55 || e != 57)
+ if (c != 55 || d != 56 || e != 57)
 {
 putchar(',');
 putchar(' ');
