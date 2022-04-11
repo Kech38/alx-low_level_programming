@@ -8,12 +8,12 @@
 */
 int main(void)
 {
-int i;
+int n;
 
-for (i = 0; i < 11; i++)
+for (n = 0; n < 11; n++)
   {
-putchar(i);
-if (i != 11);
+putchar(n);
+if (n != 11);
  {
 putchar(',');
 putchar(' ');
