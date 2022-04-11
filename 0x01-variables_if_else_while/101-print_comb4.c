@@ -8,11 +8,11 @@ int main(void)
 {
 int c, d, e;
 
-for(c = 48; c < 58; c++)
+for (c = 48; c < 58; c++)
 {
-for(d = 48; d < 58; d++)
+for (d = 48; d < 58; d++)
 {
-for(e = 48; e < 58; e++)
+for (e = 48; e < 58; e++)
 {
 if (c != e && c < d)
 if (d != e && d < e)
@@ -21,7 +21,7 @@ putchar(c);
 putchar(d);
 putchar(e);
 if (c != 55 || d != 56)
-if (d != 56 || e != 57)
+if (d != 55 || e != 57)
 {
 putchar(',');
 putchar(' ');
