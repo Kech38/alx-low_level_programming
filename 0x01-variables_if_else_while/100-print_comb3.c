@@ -17,7 +17,7 @@ if (d > c)
 {
 putchar(c);
 putchar(d);
-if (c != 57 && d != 57)
+if (c != 57 || d != 57)
 {
 putchar(',');
 putchar(' ');
