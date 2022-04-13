@@ -1,4 +1,4 @@
-#imclude "main.h"
+#include "main.h"
 
 /**
 * _isalpha - check for lower case letter
