@@ -10,19 +10,19 @@ int _sqrt_recursion(int n)
 {
 if (n < 0)
 return (-1);
-return (actual_sqrt_recursion(n, 0));
+return (sqrt_a(n, 0));
 }
 
 /**
- * actual_sqrt_recursion  - main - check the code
+ * sqrt_a  - main - check the code
  * Return: resulting square root
  */
 
-int actual_sqrt_recursion(int n, int a)
+int sqrt_a(int n, int i)
 {
-if (a * a > n)
+if (i * i > n)
 return (-1);
-if (a * a == n)
-return (a);
-return (actual_sqrt_recursion(n, a + 1));
+if (i * i == n)
+return (i);
+return (sqrt_a(n, i + 1));
 }
