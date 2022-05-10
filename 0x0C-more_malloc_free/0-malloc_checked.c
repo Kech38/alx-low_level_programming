@@ -9,9 +9,8 @@
  */
 
 void *malloc_checked(unsigned int b)
-  
-int main()
-  {
+
+{
   unsigned int b;
   int *ptr;
 
