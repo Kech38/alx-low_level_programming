@@ -2,6 +2,7 @@
 
 int main()
 {
-  _FILE_
+  printf("file name %s" _FILE_);
+  return (0);
 
   }
