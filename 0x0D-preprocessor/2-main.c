@@ -1,14 +1,15 @@
-#include <stdlib.h>
+#include "main.h"
+#include <stdio.h>
 
 /**
- * main - prints current filename to std output
- * Return: 0 on success
+ * main - Write a program that prints the name of the file it was compiled
+ * from, followed by a new line.
+ *
+ * Return: Always 0.
  */
 
 int main(void)
-
 {
-printf("file name %s\n", __FILE__);
+printf("%s\n", __FILE__);
 return (0);
-
 }
