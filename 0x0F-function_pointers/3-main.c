@@ -22,7 +22,7 @@ printf("Error\n");
 exit(98);
 }
 
-arg1 = atoi(argc[1]);
+arg1 = atoi(argv[1]);
 arg2 = atoi(argv[3]);
 
 func = get_op_func(argv[2]);
@@ -33,7 +33,7 @@ printf("Error\n");
 exit(99);
 }
 
-o = argv[2];
+o = *argv[2];
 
 if ((o == '/' || o == '%') && arg2 == 0)
 {
@@ -42,5 +42,7 @@ exit(100);
 }
 result = func(arg1, arg2);
 printf("%d\n", result);
-result (0);
+
+return (0);
+
 }

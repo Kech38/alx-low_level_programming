@@ -1,4 +1,4 @@
-#include "3-calc.h
+#include "3-calc.h"
 
 /**
 * op_add - finds the sum of two integers
@@ -20,7 +20,7 @@ return (a + b);
 * Return: difference of a and b
 */
 
-int op_sub(int a, int b);
+int op_sub(int a, int b)
 {
 return (a - b);
 }
@@ -32,7 +32,7 @@ return (a - b);
 * Return: product of a and b
 */
 
-int op_mul(int a, int b);
+int op_mul(int a, int b)
 {
 return (a * b);
 }
@@ -44,7 +44,7 @@ return (a * b);
 * Return: division of a and b
 */
 
-int op_div(int a, int b);
+int op_div(int a, int b)
 {
 return (a / b);
 }
