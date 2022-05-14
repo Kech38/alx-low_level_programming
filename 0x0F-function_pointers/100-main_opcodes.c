@@ -1,4 +1,4 @@
-#include <stdio.h>
+ #include <stdio.h>
 #include <stdlib.h>
 
 /**
@@ -30,10 +30,10 @@ for (i = 0; i < bytes; i++)
 {
 if (i == bytes - 1)
 {
-printf("%02hhx\n", arr[i]);
+printf("%02hhx", arr[i]);
 break;
 }
-printf("%02hhx", arr[i]);
+printf("%02hhx\n", arr[i]);
 }
 return (0);
 }
