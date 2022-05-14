@@ -2,8 +2,8 @@
 #include <string.h>
 #include "3-calc.h"
 /**
- * get_op_func - function pointer that selects the correct function
- * to perform the operation asked
+ * get_op_func - function pointer that selects the correct function to perform.
+ * the operation asked
  * @s: the operator given
  * Returns: a pointer to the function that corresponds to the operator
  * given as a parameter
