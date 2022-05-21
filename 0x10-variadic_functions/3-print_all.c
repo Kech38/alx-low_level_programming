@@ -1,4 +1,5 @@
 #include "variadic_functions.h"
+#include <stdarg.h>
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -7,7 +8,7 @@
  * @list: arguments from print_all
  */
 void print_char(va_list list)
-  
+
 {
 printf("%c", va_arg(list, int));
 }
@@ -29,7 +30,7 @@ printf("%d", va_arg(list, int));
  */
 
 void print_float(va_list list)
- 
+
 {
 printf("%f", va_arg(list, double));
 }
@@ -69,7 +70,7 @@ printTypeStruct printType[] = {
 { "f", print_float },
 { "c", print_char },
 { "s", print_str },
-{NULL, NULL}
+{ "\0", NULL}
 };
 
 
@@ -80,7 +81,7 @@ while (format && format[i])
 j = 0;
 while (j < 4)
 {
-if (*printType[j].type == format[i])
+if (*printType[j]. type == format[i])
 {
 printf("%s", sep);
 printType[j].printer(list);
